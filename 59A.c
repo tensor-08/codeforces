@@ -8,7 +8,6 @@ int main(void)
     scanf("%100s", input);
     int a = 0;
     int b = 0;
-    
     for(int i = 0; i < strlen(input); i++)
     {
         if(input[i] >= 'A'  && input[i] <= 'Z')
